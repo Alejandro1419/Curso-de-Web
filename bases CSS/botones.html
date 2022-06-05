@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botones</title>
+
+    <style>
+        body{
+            background: rgb(223, 211, 211);
+            font-family: 'Times New Roman', Times, serif;
+        }
+        div{
+            margin: 20px 0;
+        }
+
+        .btn{
+            background: rgb(114, 33, 77);
+            color: #fff;
+            font-size: 16px;
+            padding: 15px 20px;
+            margin: 0 10px;
+            border-style: none;
+        }
+        .btn:hover{
+            opacity: 0.8;
+            cursor: pointer;
+        }
+
+        /* tamaño */
+        .small{
+            font-size: 14px;
+            padding: 10px 15px;
+        }
+
+        .medium{
+            font-size: 16px;
+            padding: 15px 20px;
+        }
+        .big{
+            font-size: 18px;
+            padding: 20px 25px;
+        }
+
+        /* colores */
+        .pink{background: rgb(247, 2, 165);}
+        .orange{background: rgb(255, 155, 6);}
+        .yellow{background: rgb(253, 251, 104);}
+
+        /* Efectos */
+
+        .border-radius{
+            border-radius: 30px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div>
+        <button class="btn">yamete kudasai</button>
+    </div>
+
+    <div>
+        <button class="btn small pink">kyaaaaa</button>
+        <button class="btn medium orange">yametekure</button>
+        <button class="btn big yellow">Ughhh~</button>
+    </div>
+
+    <div>
+        <button class="btn small pink border-radius">kyaaaaa</button>
+        <button class="btn medium orange border-radius">yametekure</button>
+        <button class="btn big yellow border-radius">Ughhh~</button>
+    </div>
+    
+</body>
+</html>
